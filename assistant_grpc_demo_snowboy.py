@@ -21,7 +21,11 @@ import aiy.assistant.grpc
 import aiy.audio
 import aiy.voicehat
 
-import mod.snowboydecoder as snowboydecoder
+
+import sys
+import os
+sys.path.append(os.path.abspath("/home/pi/AIY-voice-kit-python/src/mod"))
+import snowboydecoder as snowboydecoder
 import sys
 
 if len(sys.argv) == 1:
