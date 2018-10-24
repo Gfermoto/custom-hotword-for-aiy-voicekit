@@ -31,7 +31,10 @@ from aiy.assistant.library import Assistant
 import aiy.voicehat
 from google.assistant.library.event import EventType
 
-import mod.snowboydecoder as snowboydecoder
+import sys
+import os
+sys.path.append(os.path.abspath("/home/pi/AIY-voice-kit-python/src/mod"))
+import snowboydecoder as snowboydecoder
 
 if len(sys.argv) == 1:
     print("Error: need to specify model name")
