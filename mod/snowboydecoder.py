@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import collections
-from . import snowboydetect
+import snowboydetect
 import time
 import os
 import logging
