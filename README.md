@@ -1,5 +1,6 @@
-sudo systemctl start AssistantPi.service
-
+```
+sudo systemctl stop AssistantPi.service
+```
 # custom-hotword-for-aiy-voicekit
 Snowboy API for AIY Voice Kit.    
 Replace your AIY Voice Kit hotword [OK. Google] to [alexa],[jarvis]...etc  
